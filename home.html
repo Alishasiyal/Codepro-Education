@@ -1,0 +1,823 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- AOS link css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- AOS link JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <img width="150" src="imgs/codepro logo black.jpeg" alt="" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- No d-flex class here, keep it simple -->
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="home.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="about.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="courses.html"
+                >Courses</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- Position the button outside the collapse menu area -->
+        <div class="d-flex">
+          <div class="btn nav-btn" type="submit" style="margin-left: auto">
+            <i class="fa fa-phone"></i>
+            Book Now
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- container one -->
+    <div class="container-fluid my-bg">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-5 mx-auto m-5">
+          <div data-aos="fade-up" data-aos-duration="3000">
+            <img
+              width="100%"
+              src="imgs/home-girl.webp"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+        </div>
+        <div class="col-12 col-md-5 mx-auto text-center text-md-left">
+          <div class="heading">
+            <div data-aos="fade-left" data-aos-duration="3000">
+              <h1 class="main-heading font">
+                Develop Your <br />
+                Mind And Skills
+              </h1>
+              <div class="pera">
+                <p class="font">
+                  Develop your mind and skills. Want to get professional
+                  knowledge in the fast-developing IT sphere? If you are just an
+                  amateur who's willing to get professional knowledge, check
+                  what we have prepared for you!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="btn hero-btn">
+            <a class="first-btn m-2" href="#">Contact Us</a>
+            <a class="second-btn m-2" href="#">Our Courses</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Container Two -->
+    <div class="container card-container">
+      <div class="row shadow-lg bg-white text-center justify-content-center">
+        <div class="col-md-3 m-3 order-first py-3">
+          <h5 class="font">
+            <i class="fa-solid fa-pencil my-icon"></i> Best Industry Leaders
+          </h5>
+          <p class="font">
+            Skillum involves the best industry leaders, who share their
+            experience, knowledge and tips with our students.
+          </p>
+        </div>
+        <div class="col-md-3 m-3 order-second py-3">
+          <h5 class="font">
+            <i class="fa-solid fa-person my-icon"></i> Best Teachers
+          </h5>
+          <p class="font">
+            Our staff consists of professional experienced teachers, who love
+            what they do and use creative approach in teaching.
+          </p>
+        </div>
+        <div class="col-md-3 m-3 order-last py-3">
+          <h5 class="font">
+            <i class="fa-solid fa-award my-icon"></i> National Awards
+          </h5>
+          <p class="font">
+            Skillum takes part in many IT educational contests. We won the
+            National IT Progress Award 3 times.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Container Three  -->
+    <div class="container mb-5">
+      <div class="course-heading text-center m-4">
+        <h2 class="m-5 font">Our Courses</h2>
+      </div>
+    </div>
+    <!-- container four -->
+    <div class="container-fluid">
+      <!-- Row One -->
+      <div class="row m-5">
+        <!-- Card 1 -->
+        <div class="col-md-3 mb-4">
+          <div class="card h-100">
+            <img src="imgs/card1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text text-color font">MARKETING</p>
+              <h5 class="card-title border-bottom py-2">
+                SEO AND COMMERCE WEBSITE PROMOTION
+              </h5>
+              <div class="text-center py-2">
+                <div class="text-center py-2">
+                  <span
+                    ><i class="fa-solid fa-book my-icon"></i> 4 COURSES |
+                    <i class="fa-solid fa-certificate my-icon"></i>
+                    CERTIFICATE</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-md-3 mb-4">
+          <div class="card h-100">
+            <img src="imgs/card2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text text-color font">BUSINESS</p>
+              <h5 class="card-title border-bottom py-2 font">
+                DEVELOPMENT OF YOUR BUSINESS SKILLS
+              </h5>
+              <div class="text-center py-2">
+                <div class="text-center py-2">
+                  <span
+                    ><i class="fa-solid fa-book my-icon"></i> 4 COURSES |
+                    <i class="fa-solid fa-certificate my-icon"></i>
+                    CERTIFICATE</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col-md-3 mb-4">
+          <div class="card h-100">
+            <img src="imgs/card3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text text-color font">PROGRAMMING</p>
+              <h5 class="card-title border-bottom font py-2">
+                Python Programming: A Concise Introduction
+              </h5>
+              <div class="text-center py-2">
+                <div class="text-center py-2">
+                  <span
+                    ><i class="fa-solid fa-book my-icon"></i> 4 COURSES |
+                    <i class="fa-solid fa-certificate my-icon"></i>
+                    CERTIFICATE</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="col-md-3 mb-4">
+          <div class="card h-100">
+            <img src="imgs/card4.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text text-color font">PHOTOGRAPHY</p>
+              <h5 class="card-title border-bottom py-2 font">
+                Demonstration Photos of Products on the Website
+              </h5>
+              <div class="text-center py-2">
+                <div class="text-center py-2">
+                  <span
+                    ><i class="fa-solid fa-book my-icon"></i> 4 COURSES |
+                    <i class="fa-solid fa-certificate my-icon"></i>
+                    CERTIFICATE</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Row Two -->
+      <div class="row m-5">
+        <!-- Card 5 -->
+        <div class="col-md-3 mb-4">
+          <div class="card h-100">
+            <img src="imgs/card5.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text text-color font">DESIGN</p>
+              <h5 class="card-title border-bottom py-2 font">
+                Interaction Design Specialization
+              </h5>
+              <div class="text-center py-2">
+                <div class="text-center py-2">
+                  <span
+                    ><i class="fa-solid fa-book my-icon"></i> 4 COURSES |
+                    <i class="fa-solid fa-certificate my-icon"></i>
+                    CERTIFICATE</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 6 -->
+        <div class="col-md-3 mb-4">
+          <div class="card h-100">
+            <img src="imgs/card6.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text text-color font">PROGRAMMING</p>
+              <h5 class="card-title border-bottom py-2 font">
+                Front-End JavaScript Frameworks: Angular
+              </h5>
+              <div class="text-center py-2">
+                <div class="text-center py-2">
+                  <span
+                    ><i class="fa-solid fa-book my-icon"></i> 4 COURSES |
+                    <i class="fa-solid fa-certificate my-icon"></i>
+                    CERTIFICATE</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 7 -->
+        <div class="col-md-3 mb-4">
+          <div class="card h-100">
+            <img src="imgs/card7.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text text-color font">
+                ARCHITECTURE, ART & DESIGN
+              </p>
+              <h5 class="card-title border-bottom py-2 font">
+                Functional Programming in Scala Specialization
+              </h5>
+              <div class="text-center py-2">
+                <div class="text-center py-2">
+                  <span
+                    ><i class="fa-solid fa-book my-icon"></i> 4 COURSES |
+                    <i class="fa-solid fa-certificate my-icon"></i>
+                    CERTIFICATE</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card 8 -->
+        <div class="col-md-3 mb-4">
+          <div class="card h-100">
+            <img src="imgs/card8.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text text-color font">
+                ARCHITECTURE, ART & DESIGN
+              </p>
+              <h5 class="card-title border-bottom py-2 font">
+                Software Product Management Specialization
+              </h5>
+              <span
+                ><i class="fa-solid fa-book my-icon"></i> 4 COURSES |
+                <i class="fa-solid fa-certificate my-icon"></i>
+                CERTIFICATE</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- container five -->
+    <div class="container-fluid my-bg">
+      <div class="row py-5">
+        <div class="col-md-3">
+          <div data-aos="fade-up" data-aos-duration="3000">
+            <div class="img" style="margin: auto">
+              <img src="imgs/new-courses-img.PNG" alt="" />
+            </div>
+            <div class="img" style="margin: auto">
+              <img src="imgs/new-course2.PNG" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
+            <div class="img" style="margin: auto">
+              <img src="imgs/wordpress-img.PNG" alt="" />
+            </div>
+            <div class="img" style="margin: auto">
+              <img src="imgs/php.PNG" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div data-aos="fade-up" data-aos-duration="3000">
+            <div class="img" style="margin: auto">
+              <img src="imgs/javaScript.PNG" alt="" />
+            </div>
+            <div class="img" style="margin: auto">
+              <img src="imgs/html5-img.PNG" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
+            <div class="img" style="margin: auto">
+              <img src="imgs/seo-img.PNG" alt="" />
+            </div>
+            <div class="img" style="margin: auto">
+              <img src="imgs/diamond-img.PNG" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- container six -->
+    <div class="container mb-5">
+      <h2 class="text-center m-5 font">Special Programs</h2>
+      <div class="row">
+        <div class="col p-4">
+          <div class="row justify-content-around">
+            <div class="col-12 col-sm-6 col-md-6">
+              <!-- aos strt -->
+              <div
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+              >
+                <div class="card">
+                  <img
+                    src="imgs/home-projram-img-1.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body card-bg">
+                    <a class="card-text text-white card-bg font" href="#">
+                      Fundamentals of Graphic Design</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- aos end -->
+            </div>
+            <div class="col-12 col-sm-6 col-md-6">
+              <!-- aos  strt -->
+              <div
+                data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500"
+              >
+                <div class="card">
+                  <img
+                    src="imgs/home-projram-img-2.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body card-bg">
+                    <a class="card-text card-bg text-white" href="#"
+                      >Client Needs and Software Requirements</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- aos end -->
+            </div>
+            <div class="col-12 col-sm-6 col-md-6">
+              <!-- aos strt -->
+              <div
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+              >
+                <div class="card">
+                  <img
+                    src="imgs/home-projram-img-4.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body card-bg">
+                    <a class="card-text card-bg text-white" href="#"
+                      >Interactive Strategies for Engaging with Art</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- aos end -->
+            </div>
+            <div class="col-12 col-sm-6 col-md-6">
+              <!-- aos strt -->
+              <div data-aos="fade-up" data-aos-duration="3000">
+                <div class="card" style="margin: auto">
+                  <img
+                    src="imgs/home-projram-img-5.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body card-bg">
+                    <a class="card-text card-bg text-white" href="#"
+                      >Know Thyself - The Value and Limits of Self-Knowledge</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- aos end -->
+            </div>
+          </div>
+        </div>
+        <div class="col-12 px-3 col-sm-6 col-md-4">
+          <!-- aos strt -->
+          <div
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            <div class="card">
+              <img src="imgs/home-projram-img-3.jpg" class="" alt="..." />
+              <div class="card-body card-bg">
+                <a class="card-text text-white card-bg font" href="#"
+                  >Think Again I: How to Understand Arguments</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- aos end -->
+        </div>
+      </div>
+    </div>
+    <!-- container seven -->
+    <div class="container-fluid rating-bg mb-5 p-5">
+      <div class="row">
+        <div class="col">
+          <h1 class="rating text-color font">100%</h1>
+          <p class="p-rate">Success Rate</p>
+        </div>
+        <div class="col">
+          <h1 class="rating text-color font">12+</h1>
+          <p class="p-rate">Years of Service</p>
+        </div>
+        <div class="col">
+          <h1 class="rating text-color fontt">135k+</h1>
+          <p class="p-rate">Students</p>
+        </div>
+        <div class="col">
+          <h1 class="rating text-color font">500+</h1>
+          <p class="p-rate">Our Courses</p>
+        </div>
+      </div>
+    </div>
+    <!-- container eight -->
+    <div class="container-fluid mb-5">
+      <h2 class="text-center p-3 font">Our Courses</h2>
+      <!-- Row One -->
+      <div class="row m-5">
+        <!-- Card 1 -->
+        <div class="col-md-3 mb-4">
+          <!-- aos strt -->
+          <div
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
+            <div class="card h-100">
+              <img
+                src="imgs/home-courses-img-9-1-768x553.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text text-primary">ARCHITECTURE, ART & DESIGN</p>
+                <h5 class="card-title border-bottom py-2">
+                  Data Structures and Algorithms Specialization
+                </h5>
+                <div class="text-center py-2">
+                  <div class="text-center py-2">
+                    <span
+                      ><i class="fa-solid fa-book my-icon"></i> 4 COURSES |
+                      <i class="fa-solid fa-certificate my-icon"></i>
+                      CERTIFICATE</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- aos end -->
+        </div>
+        <!-- Card 2 -->
+        <div class="col-md-3 mb-4">
+          <!-- aos strt -->
+          <div
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
+            <div class="card h-100">
+              <img
+                src="imgs/home-course-10.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text home-text">ARCHITECTURE, ART & DESIGN</p>
+                <h5 class="card-title border-bottom py-2">
+                  Developing Applications with Google Platform
+                </h5>
+                <div class="text-center py-2">
+                  <div class="text-center py-2">
+                    <span
+                      ><i class="fa-solid fa-book my-icon"></i> 4 COURSES |
+                      <i class="fa-solid fa-certificate my-icon"></i>
+                      CERTIFICATE</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- aos end -->
+        </div>
+        <!-- Card 3 -->
+        <div class="col-md-3 mb-4">
+          <!-- aos strt -->
+          <div
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
+            <div class="card h-100">
+              <img
+                src="imgs/home-courses-img-11-1-768x553.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text home-text">ARCHITECTURE, ART & DESIGN</p>
+                <h5 class="card-title border-bottom py-2">
+                  Python Programming: A Concise Introduction
+                </h5>
+                <div class="text-center py-2">
+                  <div class="text-center py-2">
+                    <span
+                      ><i class="fa-solid fa-book my-icon"></i> 4 COURSES |
+                      <i class="fa-solid fa-certificate my-icon"></i>
+                      CERTIFICATE</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- aos end -->
+        </div>
+        <!-- Card 4 -->
+        <div class="col-md-3 mb-4">
+          <!-- aos strt -->
+          <div
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
+            <div class="card h-100">
+              <img
+                src="imgs/home-courses-img-12-1-768x553.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text home-text">ARCHITECTURE, ART & DESIGN</p>
+                <h5 class="card-title border-bottom py-2">
+                  Rails with Active Record and Action Pack
+                </h5>
+                <div class="text-center py-2">
+                  <div class="text-center py-2">
+                    <span
+                      ><i class="fa-solid fa-book my-icon"></i> 4 COURSES |
+                      <i class="fa-solid fa-certificate my-icon"></i>
+                      CERTIFICATE</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- aos end -->
+        </div>
+      </div>
+    </div>
+    <!-- container nine -->
+    <div class="container-fluid home-bg-nine mb-5">
+      <div class="row p-5">
+        <div class="col text-white">
+          <h3 class="font">
+            <i class="fa-solid fa-suitcase fa-1x"></i> free cources
+          </h3>
+          Nam metus ante, rhoncus nec mollis ac, fermentum vel dolor. Morbi
+          sceler isque in purus non pellent esque.
+        </div>
+        <div class="col text-white">
+          <h3 class="font">
+            <i class="fa-solid fa-pen fa-1x"></i> free cources
+          </h3>
+          <p class="font">
+            Nam metus ante, rhoncus nec mollis ac, fermentum vel dolor. Morbi
+            sceler isque in purus non pellent esque.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- container ten -->
+    <div class="container-fluid mb-5">
+      <h2 class="text-center p-3 font">Our Blog</h2>
+      <!-- Row One -->
+      <div class="row m-5">
+        <!-- Card 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="imgs/home-blog-img-1.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <span class="d-flex justify-content-between">
+                <span>ADMIN | FEBRUARY 18, 2024</span>
+              </span>
+              <h5 class="card-title py-2">
+                Top 10 In-Demand Soft Skills Employers Look For
+              </h5>
+              <p>
+                Ever wished you were smarter? You can become smarter, depending
+                on how you choose to...
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="imgs/home-blog-img-2.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <span class="d-flex justify-content-between">
+                <span>ADMIN | FEBRUARY 18, 2024</span>
+              </span>
+              <h5 class="card-title py-2">
+                5 Steps to Building a Killer Personal Brand
+              </h5>
+              <p>
+                Are you a budding photographer at heart? Before jumping into
+                learning professional photography, discover what...
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="imgs/home-blog-img-3.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <span class="d-flex justify-content-between">
+                <span>ADMIN | FEBRUARY 18, 2024</span>
+              </span>
+              <h5 class="card-title py-2">
+                10 Things You Can Do Right Now for Self Improvement
+              </h5>
+              <p>
+                So you’re not a techie, and the idea of HTML scares you. It
+                shouldn’t. It...
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer container -->
+    <div class="container-fluid footer-container">
+      <div class="row p-5 d-flex justify-content-around">
+        <div class="col-md-3 col-lg-4 box-1 py-3 mb-4">
+          <img width="150" src="imgs/codepro logo black.jpeg" alt="" />
+          <p>
+            CodePro Web and Software Services offers exceptional web solutions,
+            including free hosting and domain with every theme purchase.
+            Experience unmatched value from the only company of its kind.
+          </p>
+          <div class="icon d-flex p-2 justify-content-around">
+            <i class="fa-brands fa-facebook-f text-primary"></i>
+            <i class="fa-brands fa-youtube text-primary"></i>
+            <i class="fa-brands fa-linkedin-in text-primary"></i>
+          </div>
+        </div>
+        <div class="col-md-7 col-lg-6 mb-4 py-3 box-2 text-md-start">
+          <div class="quick-links">
+            <h5>Quick Links</h5>
+            <ul>
+              <li><i class="fa-solid fa-house"></i> Home</li>
+              <li><i class="fa-solid fa-shop"></i> Shop</li>
+              <li><i class="fa fa-user"></i> Login</li>
+              <li><i class="fa fa-user-circle"></i> Register</li>
+            </ul>
+          </div>
+          <div class="others">
+            <h5>Others</h5>
+            <ul>
+              <li>FAQ</li>
+              <li>Terms of use</li>
+              <li>Privacy Policy</li>
+            </ul>
+          </div>
+          <div class="locate">
+            <h5>Locate Us</h5>
+            <ul>
+              <li>
+                <i class="fa fa-map-marker-alt text-primary"></i> A55, Phase 1,
+                Pakora Stop, near Jamia Masjid Ahel Hadith, Qasimabad, Hyderabad
+              </li>
+              <li class="text-success">
+                <i class="fa-brands fa-whatsapp text-success"></i>
+                0311-73-22-00-7
+              </li>
+            </ul>
+            <p class="text-primary">We are always around the corner!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <!-- AOS -->
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

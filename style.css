@@ -1,0 +1,349 @@
+html,
+body {
+  overflow-x: hidden;
+}
+/* navbar btn */
+.nav-btn {
+  background-color: #01a495; /* Initial button color */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Padding for button */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-btn:hover {
+  background-color: #fedd02; /* Hover color */
+  color: #333; /* Text color on hover */
+}
+
+.nav-btn i {
+  margin-right: 5px; /* Space between icon and text */
+}
+
+/* container one */
+.my-bg {
+  background-image: linear-gradient(rgb(254, 221, 2), rgba(255, 234, 98, 0.5)),
+    url(pexels-nick-gorniok-495871763-18903408.jpg);
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+}
+
+.main-heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 4rem;
+}
+
+/* container one btn */
+
+.first-btn,
+.second-btn {
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+.first-btn {
+  background-color: rgb(59, 60, 51);
+}
+
+.first-btn:hover {
+  background-color: rgb(1, 164, 149);
+  text-decoration: none;
+  color: #fff;
+}
+
+.second-btn {
+  background-color: rgb(1, 164, 149);
+}
+
+.second-btn:hover {
+  background-color: rgb(59, 60, 51);
+  text-decoration: none;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .btn-book {
+    width: 100%;
+  }
+  @media (max-width: 768px) {
+    .my-bg {
+      position: relative;
+    }
+
+    .hero-btn {
+      position: absolute;
+      bottom: 40px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 90%;
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .first-btn,
+    .second-btn {
+      flex: 1;
+      max-width: 150px;
+    }
+
+    .col-md-5 {
+      margin-bottom: 80px; /* Space for buttons */
+    }
+  }
+
+  .first-btn,
+  .second-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .my-bg {
+    height: auto;
+    background-position: top center;
+  }
+
+  .card-container {
+    margin-top: 0px;
+  }
+}
+
+/* Container Two */
+
+.card-container {
+  margin-top: -50px;
+  z-index: 0;
+  position: relative;
+}
+
+.my-icon {
+  color: #fedd02;
+}
+
+/* container three */
+.course-btn:hover {
+  background-color: #01a495;
+  color: #fff;
+}
+
+/* Active button effect */
+.course-btn:focus {
+  background-color: #01a495;
+  color: #fff;
+}
+/* conntainer Four */
+.custom-btn {
+  color: black;
+  text-decoration: none;
+}
+
+.custom-btn:hover {
+  color: black;
+  text-decoration: none;
+}
+.card-title:hover {
+  color: #fedd02;
+}
+span {
+  cursor: default;
+}
+
+span:hover {
+  text-decoration: none;
+}
+/* container five */
+div.img {
+  width: 300px;
+  height: 300px;
+}
+
+/* container nine */
+.home-bg-nine {
+  background-color: #11afcb;
+}
+
+/* container seven */
+.rating {
+  font-weight: 400;
+  font-size: 4rem;
+  color: #11afcb;
+}
+.rating-bg {
+  background-color: #f0f0f0;
+}
+.p-rate {
+  font-family: "Montserrat", sans-serif;
+  font-size: 130%;
+  color: lightslategray;
+}
+
+/* Contact section container one */
+.breadcrumb {
+  background-color: #fedd02;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+}
+/* cintact section container two */
+.map-frame {
+  width: 100%;
+  height: 60vh;
+  max-height: 600px;
+  border: 0;
+}
+
+/* contact  section container three  */
+input::placeholder,
+textarea::placeholder {
+  text-align: center;
+}
+
+/* about us section */
+/* about container two */
+.about-card {
+  height: 160px;
+}
+
+.form-bg {
+  background-color: #01a495;
+  color: white;
+}
+.input-bg {
+  background-color: #39bfb2;
+}
+
+.input-bg::placeholder {
+  color: white;
+}
+/* About container five  */
+.font {
+  font-family: "Montserrat", sans-serif;
+}
+.about-five {
+  background-color: #ffcd17;
+}
+.btn-custom {
+  background-color: #01a495;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.btn-custom:hover {
+  background-color: rgb(33, 4, 4);
+  color: #fff;
+}
+/*about  container eight */
+.card-bg {
+  background-color: #11afcb;
+  font-family: "Montserrat", sans-serif;
+}
+
+.about-bg-seven,
+.about-bg-nine {
+  background-color: #11afcb;
+}
+/* courses container four */
+.course-container-bg {
+  background-color: #ffcd17;
+}
+
+.timer-container {
+  background-color: #ffd700;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.timer-heading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.timer-box {
+  border: 3px solid #00c0ff;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 2rem;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-box small {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 576px) {
+  .timer-box {
+    width: 90px;
+    height: 90px;
+    font-size: 1.5rem;
+  }
+}
+/* footer  */
+.footer-container {
+  background-color: #f9d904;
+}
+.box-1 {
+  background-color: white;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.box-2 {
+  background-color: white;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.footer-container .box-2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-container .box-2 > div {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-container .box-2 > div:last-child {
+  margin-right: 0;
+}
+
+.footer-container .box-2 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-container .box-2 ul li {
+  margin-bottom: 10px;
+}
+
+.footer-container .locate ul {
+  padding-left: 0;
+}
+
+.footer-container .box-2 > div {
+  padding: 10px;
+}
+.footer-container .box-2 ul li i {
+  margin-right: 5px;
+  vertical-align: middle;
+}
